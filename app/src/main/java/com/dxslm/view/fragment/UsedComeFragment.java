@@ -27,9 +27,6 @@ import java.util.List;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-/**
- * Created by fxn on 2017/12/26.
- */
 
 public class UsedComeFragment  extends BaseFragment {
     @Bind(R.id.recyclerview_used_all)

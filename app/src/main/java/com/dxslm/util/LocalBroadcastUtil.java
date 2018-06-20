@@ -6,9 +6,6 @@ import android.support.v4.content.LocalBroadcastManager;
 import com.dxslm.MyApplication;
 import com.dxslm.entity.ClassifyOne;
 
-/**
- * Created by fxn on 2017/12/21.
- */
 
 public class LocalBroadcastUtil {
     /**

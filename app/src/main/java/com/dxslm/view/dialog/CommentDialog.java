@@ -33,9 +33,6 @@ import com.dxslm.model.ICallBack;
 import com.dxslm.util.Util;
 
 
-/**
- * Created by fxn on 2017/10/13.
- */
 
 public class CommentDialog extends Dialog{
     private Context context;

@@ -2,9 +2,6 @@ package com.dxslm.entity.forum;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/20.
- */
 
 public class ForumDetails {
     private List<ListBean> list;

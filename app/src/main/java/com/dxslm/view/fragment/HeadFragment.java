@@ -60,9 +60,6 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-/**
- * Created by fxn on 2017/12/11.
- */
 
 public class HeadFragment extends BaseFragment {
 

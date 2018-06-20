@@ -1,8 +1,5 @@
 package com.dxslm.entity;
 
-/**
- * Created by fxn on 2017/12/18.
- */
 
 public class Success {
     /**

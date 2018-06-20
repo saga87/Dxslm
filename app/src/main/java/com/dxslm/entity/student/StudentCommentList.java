@@ -2,9 +2,6 @@ package com.dxslm.entity.student;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/19.
- */
 
 public class StudentCommentList {
     private List<ListBean> list;

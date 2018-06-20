@@ -37,9 +37,6 @@ import com.dxslm.okhttp.request.RequestParams;
 import com.dxslm.util.UrlUtil;
 import com.google.gson.Gson;
 
-/**
- * Created by fxn on 2017/12/12.
- */
 
 public class HeadModel {
     private static  HeadModel mInstance = null;

@@ -2,9 +2,6 @@ package com.dxslm.entity;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/29.
- */
 
 public class RegsiterSchoolList {
     private List<ListBean> list;

@@ -53,9 +53,6 @@ import com.just.agentweb.WebDefaultSettingsManager;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-/**
- * Created by fxn on 2017/12/11.
- */
 
 public class SearchFragment extends Fragment implements FragmentKeyDown {
 

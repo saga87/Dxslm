@@ -1,8 +1,5 @@
 package com.dxslm.model;
 
-/**
- * Created by fxn on 2017/6/6.
- */
 
 public interface ICallBack {
     /**

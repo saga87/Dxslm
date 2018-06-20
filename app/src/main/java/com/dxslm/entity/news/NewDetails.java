@@ -3,9 +3,6 @@ package com.dxslm.entity.news;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/12.
- */
 
 public class NewDetails implements Serializable{
 

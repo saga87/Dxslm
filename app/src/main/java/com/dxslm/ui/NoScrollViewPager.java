@@ -1,8 +1,5 @@
 package com.dxslm.ui;
 
-/**
- * Created by fxn on 2018/1/9.
- */
 
 import android.content.Context;
 import android.support.v4.view.ViewPager;

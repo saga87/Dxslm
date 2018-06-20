@@ -31,9 +31,6 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 
-/**
- * Created by fxn on 2017/12/26.
- */
 
 public class UsedAllFragment extends BaseFragment {
 

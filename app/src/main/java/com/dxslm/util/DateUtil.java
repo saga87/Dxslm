@@ -4,9 +4,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * Created by fxn on 2017/12/12.
- */
 
 public class DateUtil {
     /**

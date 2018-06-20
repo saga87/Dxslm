@@ -1,8 +1,5 @@
 package com.dxslm.entity.user;
 
-/**
- * Created by fxn on 2017/12/11.
- */
 
 public class UserMessage {
 

@@ -9,9 +9,6 @@ import com.dxslm.R;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/9.
- */
 
 public class PhotoAdapter extends BaseQuickAdapter<Bitmap, BaseViewHolder> {
 

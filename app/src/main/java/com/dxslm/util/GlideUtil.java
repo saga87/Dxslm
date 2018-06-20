@@ -18,9 +18,6 @@ import com.dxslm.MyApplication;
 import com.dxslm.R;
 
 
-/**
- * Created by fxn on 2017/12/12.
- */
 
 public class GlideUtil {
     /**

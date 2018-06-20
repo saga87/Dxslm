@@ -1,8 +1,5 @@
 package com.dxslm.ui;
 
-/**
- * Created by fxn on 2017/6/8.
- */
 
 import android.content.Context;
 import android.util.AttributeSet;

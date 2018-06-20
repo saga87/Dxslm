@@ -8,9 +8,6 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/8.
- */
 
 public class JsonGson {
 

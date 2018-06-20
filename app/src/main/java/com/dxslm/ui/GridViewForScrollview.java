@@ -5,9 +5,6 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.GridView;
 
-/**
- * Created by fxn on 2017/12/20.
- */
 
 public class GridViewForScrollview extends GridView{
     public GridViewForScrollview(Context context) {

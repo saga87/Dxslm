@@ -26,9 +26,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by fxn on 2017/12/11.
- */
 
 public class Util {
     /**

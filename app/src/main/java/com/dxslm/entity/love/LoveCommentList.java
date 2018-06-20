@@ -2,9 +2,6 @@ package com.dxslm.entity.love;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/21.
- */
 
 public class LoveCommentList {
     private List<ListBean> list;

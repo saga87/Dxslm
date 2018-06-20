@@ -31,9 +31,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by fxn on 2017/12/8.
- */
 
 public class MyModel {
     private static MyModel mInstance = null;

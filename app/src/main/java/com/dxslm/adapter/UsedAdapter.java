@@ -31,9 +31,6 @@ import com.dxslm.view.dialog.CommentDialog;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/9.
- */
 
 public class UsedAdapter extends BaseQuickAdapter<UsedList.ListBean , BaseViewHolder> {
     private final String deptId;

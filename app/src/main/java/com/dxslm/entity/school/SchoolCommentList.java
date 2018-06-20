@@ -2,9 +2,6 @@ package com.dxslm.entity.school;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/19.
- */
 
 public class SchoolCommentList {
 

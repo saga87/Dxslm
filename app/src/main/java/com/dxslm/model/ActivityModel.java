@@ -20,9 +20,6 @@ import com.dxslm.okhttp.request.CommonRequest;
 import com.dxslm.okhttp.request.RequestParams;
 import com.dxslm.util.UrlUtil;
 
-/**
- * Created by fxn on 2017/12/26.
- */
 
 public class ActivityModel {
     private static  ActivityModel mInstance = null;

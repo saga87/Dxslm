@@ -14,9 +14,6 @@ import com.dxslm.util.UrlUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/9.
- */
 
 public class NewsAdapter extends BaseQuickAdapter<NewsList.ListBean , BaseViewHolder> {
     private List<String> imgs = new ArrayList<>();

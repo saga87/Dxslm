@@ -5,9 +5,6 @@ import android.content.SharedPreferences;
 
 import java.util.Map;
 
-/**
- * Created by fxn on 2017/12/11.
- */
 
 public class SharedPreferencesHelper {
     private SharedPreferences sharedPreferences;

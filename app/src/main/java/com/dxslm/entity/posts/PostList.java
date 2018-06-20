@@ -2,9 +2,6 @@ package com.dxslm.entity.posts;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/15.
- */
 
 public class PostList {
     /**

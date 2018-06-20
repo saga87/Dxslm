@@ -2,9 +2,6 @@ package com.dxslm.entity.used;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/26.
- */
 
 public class UsedList {
     /**

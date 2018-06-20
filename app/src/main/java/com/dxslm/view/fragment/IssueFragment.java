@@ -55,9 +55,6 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import fj.edittextcount.lib.FJEditTextCount;
 
-/**
- * Created by fxn on 2017/12/11.
- */
 
 public class IssueFragment extends TakePhotoFragment {
 

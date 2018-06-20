@@ -16,9 +16,6 @@ import com.dxslm.util.Util;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/9.
- */
 
 public class ChwlDetailsAdapter extends BaseQuickAdapter<ChwlGoods.ListBean , BaseViewHolder> {
     private Context context;

@@ -11,9 +11,6 @@ import com.dxslm.util.LocalBroadcastUtil;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/9.
- */
 
 public class ClassifyFragmentAdapter extends BaseQuickAdapter<ClassifyOne.ListBean, BaseViewHolder> {
     private Context context;

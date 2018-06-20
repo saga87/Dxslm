@@ -4,7 +4,6 @@ import android.os.CountDownTimer;
 import android.widget.Button;
 
 /**
- * Created by fxn on 2017/12/29
  * 倒计时.
  */
 

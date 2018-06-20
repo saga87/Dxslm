@@ -2,9 +2,6 @@ package com.dxslm.entity;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/18.
- */
 
 public class PhotoSuccess {
     /**

@@ -3,9 +3,6 @@ package com.dxslm.entity;
 import java.io.Serializable;
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/25.
- */
 
 public class ClassifyOne implements Serializable{
 

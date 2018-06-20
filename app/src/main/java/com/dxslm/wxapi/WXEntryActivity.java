@@ -1,8 +1,5 @@
 package com.dxslm.wxapi;
 
-/**
- * Created by fxn on 2017/12/13.
- */
 import android.content.Intent;
 import android.widget.Toast;
 import cn.sharesdk.wechat.utils.WXAppExtendObject;

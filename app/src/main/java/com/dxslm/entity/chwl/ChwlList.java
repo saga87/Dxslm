@@ -2,14 +2,8 @@ package com.dxslm.entity.chwl;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/27.
- */
 
 public class ChwlList {
-    /**
-     * count : 1
-     */
 
     private int count;
     private List<ListBean> list;

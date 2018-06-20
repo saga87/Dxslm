@@ -1,8 +1,5 @@
 package com.dxslm.util;
 
-/**
- * Created by fxn on 2017/12/11.
- */
 
 public class UrlUtil {
      public static final String URL = "http://118.190.205.123/dxslm/";

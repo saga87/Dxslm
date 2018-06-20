@@ -2,9 +2,6 @@ package com.dxslm.entity.community;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/20.
- */
 
 public class CommunityDetails {
     private List<ListBean> list;

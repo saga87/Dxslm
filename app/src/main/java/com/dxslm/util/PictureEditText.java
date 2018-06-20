@@ -13,9 +13,6 @@ import android.view.MotionEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by fxn on 2018/3/22.
- */
 
 public class PictureEditText extends android.support.v7.widget.AppCompatEditText {
     private static final String TAG = "PictureEditText";

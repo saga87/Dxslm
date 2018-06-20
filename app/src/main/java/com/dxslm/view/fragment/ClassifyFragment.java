@@ -19,9 +19,6 @@ import com.dxslm.util.Util;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-/**
- * Created by fxn on 2017/12/25.
- */
 
 public class ClassifyFragment extends Fragment {
 

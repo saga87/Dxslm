@@ -17,9 +17,6 @@ import com.dxslm.util.Util;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/9.
- */
 
 public class CollectAdapter extends BaseQuickAdapter<CollectList.ListBean , BaseViewHolder> {
     private String roleId;

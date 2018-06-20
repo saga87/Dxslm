@@ -12,9 +12,6 @@ import com.dxslm.okhttp.request.CommonRequest;
 import com.dxslm.okhttp.request.RequestParams;
 import com.dxslm.util.UrlUtil;
 
-/**
- * Created by fxn on 2017/12/8.
- */
 
 public class LoginModel {
     private static  LoginModel mInstance = null;

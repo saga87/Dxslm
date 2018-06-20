@@ -13,9 +13,6 @@ import com.dxslm.util.SharedPreferencesHelper;
 import com.dxslm.util.StatusBarUtil;
 
 
-/**
- * Created by fxn on 2017/12/8.
- */
 
 public class BaseActivity extends AppCompatActivity {
 

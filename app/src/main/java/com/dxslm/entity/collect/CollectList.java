@@ -2,15 +2,9 @@ package com.dxslm.entity.collect;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/29.
- */
 
 public class CollectList {
 
-    /**
-     * count : 4
-     */
 
     private int count;
     private List<ListBean> list;

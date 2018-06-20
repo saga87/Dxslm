@@ -21,9 +21,6 @@ import com.dxslm.view.activity.PersonNewsActivity;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/9.
- */
 
 public class PostAdapter extends BaseQuickAdapter<PostList.ListBean , BaseViewHolder> {
     //private List<String> imgs = new ArrayList<>();

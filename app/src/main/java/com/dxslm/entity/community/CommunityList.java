@@ -2,14 +2,8 @@ package com.dxslm.entity.community;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/19.
- */
 
 public class CommunityList {
-    /**
-     * count : 2
-     */
 
     private int count;
     private List<ListBean> list;

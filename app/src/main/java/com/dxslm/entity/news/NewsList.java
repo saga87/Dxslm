@@ -2,9 +2,6 @@ package com.dxslm.entity.news;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/12.
- */
 
 public class NewsList {
 

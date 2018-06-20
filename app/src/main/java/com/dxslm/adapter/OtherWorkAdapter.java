@@ -33,9 +33,6 @@ import com.dxslm.view.dialog.CommentDialog;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/9.
- */
 
 public class OtherWorkAdapter extends BaseQuickAdapter<OtherWorkList.ListBean , BaseViewHolder> {
     private final String deptId;

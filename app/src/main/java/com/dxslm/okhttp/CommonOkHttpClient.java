@@ -16,9 +16,6 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-/**
- * Created by fxn on 2017/12/8.
- */
 
 public class CommonOkHttpClient {
     private static final int TIME_OUT = 20;

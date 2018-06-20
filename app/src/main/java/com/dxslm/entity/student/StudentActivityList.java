@@ -2,9 +2,6 @@ package com.dxslm.entity.student;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/22.
- */
 
 public class StudentActivityList {
     /**

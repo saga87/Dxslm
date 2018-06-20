@@ -10,9 +10,6 @@ import com.tencent.android.tpush.XGPushConfig;
 import com.tencent.android.tpush.XGPushManager;
 
 
-/**
- * Created by fxn on 2017/12/8.
- */
 
 public class MyApplication extends Application {
 

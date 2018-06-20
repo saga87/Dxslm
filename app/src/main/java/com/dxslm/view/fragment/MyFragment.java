@@ -44,9 +44,6 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-/**
- * Created by fxn on 2017/12/11.
- */
 
 public class MyFragment extends TakePhotoFragment {
     @Bind(R.id.iv_my_back)

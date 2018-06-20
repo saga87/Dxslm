@@ -2,9 +2,6 @@ package com.dxslm.entity.user;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/27.
- */
 
 public class User {
 

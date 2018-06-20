@@ -2,9 +2,6 @@ package com.dxslm.entity.chwl;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/27.
- */
 
 public class ChwlDetails {
     private List<ListBean> list;

@@ -5,9 +5,6 @@ import android.app.Activity;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by fxn on 2017/7/18.
- */
 
 public class ActivityCollector {
     //存储Activity的List

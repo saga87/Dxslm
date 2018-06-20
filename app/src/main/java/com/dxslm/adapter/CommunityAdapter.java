@@ -12,9 +12,6 @@ import com.dxslm.util.UrlUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/9.
- */
 
 public class CommunityAdapter extends BaseQuickAdapter<ComunityList.ListBean , BaseViewHolder> {
     List<String> imgs = new ArrayList<>();

@@ -21,9 +21,6 @@ import com.dxslm.util.Util;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/9.
- */
 
 public class IssueAdapter extends BaseQuickAdapter<IssueList.ListBean , BaseViewHolder> {
     List<String> imgs = new ArrayList<>();

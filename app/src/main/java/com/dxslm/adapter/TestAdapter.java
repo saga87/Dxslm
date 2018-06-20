@@ -15,9 +15,6 @@ import com.dxslm.util.UrlUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/9.
- */
 
 public class TestAdapter extends BaseQuickAdapter<NewsList.ListBean, BaseViewHolder> {
 

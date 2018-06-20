@@ -14,9 +14,6 @@ import com.dxslm.entity.ClassifyOne;
 
 import java.util.List;
 
-/**
- * Created by fxn on 2017/12/25.
- */
 
 public class ClassifyAdapter extends BaseAdapter {
 

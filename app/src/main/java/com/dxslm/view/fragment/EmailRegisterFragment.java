@@ -40,9 +40,6 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-/**
- * Created by fxn on 2017/12/11.
- */
 
 public class EmailRegisterFragment extends BaseFragment {
     @Bind(R.id.et_email_register_name)
