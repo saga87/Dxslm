@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90"
+        android:background="@color/title">
+        <ImageView
+            android:id="@+id/iv_student_union_details_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/back"
+            android:paddingLeft="@dimen/x20"
+            android:paddingRight="@dimen/x20"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/headtext7"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/iv_student_union_details_ddd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ddd"
+            android:paddingLeft="@dimen/x30"
+            android:paddingRight="@dimen/x30"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_student_union_details_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_margin="@dimen/y30"/>
+            <TextView
+                android:id="@+id/tv_student_union_details_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:layout_marginLeft="@dimen/y30"/>
+            <TextView
+                android:id="@+id/tv_student_union_details_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:layout_margin="@dimen/y30"/>
+            <com.dxslm.ui.ListViewForScrollView
+                android:id="@+id/lv_student_union_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null" >
+            </com.dxslm.ui.ListViewForScrollView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

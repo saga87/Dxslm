@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90"
+        android:background="@color/title">
+        <ImageView
+            android:id="@+id/iv_community_details_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/back"
+            android:paddingLeft="@dimen/x20"
+            android:paddingRight="@dimen/x20"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/headtext8"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/iv_community_details_ddd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/x30"
+            android:paddingRight="@dimen/x30"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/community"
+                android:scaleType="fitXY"/>
+            <TextView
+                android:id="@+id/tv_community_details_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="非凡跆拳道社团"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/tv_community_details_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="非凡跆拳道社团"
+                android:textSize="14sp"
+                android:layout_marginLeft="@dimen/y40"
+                android:layout_marginRight="@dimen/y40" />
+            <TextView
+                android:id="@+id/tv_community_details_num"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="非凡跆拳道社团"
+                android:textSize="14sp"
+                android:layout_marginTop="@dimen/y10"
+                android:layout_marginLeft="@dimen/y40"
+                android:layout_marginRight="@dimen/y40" />
+            <TextView
+                android:id="@+id/tv_community_details_activity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="非凡跆拳道社团"
+                android:textSize="14sp"
+                android:layout_marginTop="@dimen/y10"
+                android:layout_marginLeft="@dimen/y40"
+                android:layout_marginRight="@dimen/y40" />
+            <TextView
+                android:id="@+id/tv_community_details_tel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="非凡跆拳道社团"
+                android:textSize="14sp"
+                android:layout_marginTop="@dimen/y10"
+                android:layout_marginLeft="@dimen/y40"
+                android:layout_marginRight="@dimen/y40" />
+            <TextView
+                android:id="@+id/tv_community_details_add"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="非凡跆拳道社团"
+                android:textSize="14sp"
+                android:layout_marginTop="@dimen/y10"
+                android:layout_marginLeft="@dimen/y40"
+                android:layout_marginRight="@dimen/y40" />
+            <TextView
+                android:id="@+id/tv_community_details_award"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="非凡跆拳道社团"
+                android:textSize="14sp"
+                android:layout_marginTop="@dimen/y10"
+                android:layout_marginLeft="@dimen/y40"
+                android:layout_marginRight="@dimen/y40" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="社团相册:"
+                    android:textSize="18sp"
+                    android:layout_marginTop="@dimen/y10"
+                    android:layout_marginLeft="@dimen/y40" />
+                <com.dxslm.ui.GridViewForScrollview
+                    android:id="@+id/gv_community_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/x100"
+                    android:layout_marginRight="@dimen/x100"
+                    android:numColumns="2"
+                    android:divider="@null" >
+                </com.dxslm.ui.GridViewForScrollview>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

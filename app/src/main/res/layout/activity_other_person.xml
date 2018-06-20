@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dxslm.view.activity.OtherPersonActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90"
+        android:background="@color/title">
+        <ImageView
+            android:id="@+id/otheruser_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/back"
+            android:paddingLeft="@dimen/x20"
+            android:paddingRight="@dimen/x20"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="他人信息"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/otheruser_ddd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/x30"
+            android:paddingRight="@dimen/x30"/>
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/img_otheruser"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher"/>
+            <com.liji.circleimageview.CircleImageView
+                android:id="@+id/iv_touxiang_otheruser"
+                android:layout_width="@dimen/y160"
+                android:layout_height="@dimen/y160"
+                android:src="@drawable/mytouxiang"
+                android:layout_marginTop="-100dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C7C7C7"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup_otheruser"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#ffffff"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_xc"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:checked="true"
+                    android:clickable="true"
+                    android:drawablePadding="@dimen/y6"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="6dp"
+                    android:text="他的相册"
+                    android:textColor="#436EEE"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="#C7C7C7"/>
+
+                <RadioButton
+                    android:id="@+id/rb_xx"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawablePadding="@dimen/y6"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="4dp"
+                    android:text="他的信息"
+                    android:textColor="@color/black"
+
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="#C7C7C7"/>
+
+                <RadioButton
+                    android:id="@+id/rb_fb"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:drawablePadding="@dimen/y6"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="6dp"
+                    android:text="他的发布"
+                    android:textColor="@color/black"
+                    android:textSize="14dp" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C7C7C7"/>
+
+        </LinearLayout>
+        <com.dxslm.ui.NoScrollViewPager
+            android:id="@+id/viewPager_otheruser"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="-8dp"
+           >
+
+        </com.dxslm.ui.NoScrollViewPager>
+
+
+</LinearLayout>

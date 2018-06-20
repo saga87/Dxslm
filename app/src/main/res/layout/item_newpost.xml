@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.liji.circleimageview.CircleImageView
+                android:id="@+id/item_civ_gxq_icon"
+                android:src="@drawable/comment"
+                app:circle_border_color="#ffffff"
+                app:circle_border_width="5dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/item_gxq_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="学之下"
+            android:textSize="16sp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/item_gxq_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2018 4-8"
+            android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+        
+        <TextView
+            android:id="@+id/item_gxq_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="内容"
+            android:textSize="18sp" />
+
+        <com.dxslm.ui.GridViewForScrollview
+            android:id="@+id/item_gxq_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:divider="@null">
+        </com.dxslm.ui.GridViewForScrollview>
+            <TextView
+                android:id="@+id/item_gxq_school"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="潍坊科技学院"
+                android:textSize="10sp" />
+           
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="@dimen/y10"
+        android:layout_width="match_parent"
+        android:background="@color/color_cccccc"
+        android:layout_height="1sp" />
+    
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/item_ll_gxq_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/comment" />
+
+            <TextView
+                android:id="@+id/item_tv_gxq_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="5dp"
+                android:text="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/item_ll_gxq_dz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/item_iv_gxq_dz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/dianzan" />
+
+            <TextView
+                android:id="@+id/item_tv_gxq_dz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="5dp"
+                android:text="0" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.dxslm.ui.ListViewForScrollView
+        android:id="@+id/item_lv_gxq_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:visibility="gone">
+    </com.dxslm.ui.ListViewForScrollView>
+
+    <LinearLayout
+        android:background="@color/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100">
+
+        <ImageButton
+            android:id="@+id/ib_face_love"
+            android:layout_width="@dimen/x90"
+            android:layout_height="@dimen/y90"
+            android:layout_gravity="center"
+            android:background="@drawable/ib_face_normal" />
+
+        <EditText
+            android:id="@+id/item_et_gxq_comment"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/y10"
+            android:background="@drawable/edittext"
+            android:paddingLeft="@dimen/y8"
+            android:layout_gravity="center"
+            android:textSize="13sp"
+            android:hint="请填写评论"
+            android:textColorHint="@color/color_cccccc" />
+        <Button
+            android:id="@+id/item_btn_gxq_confirm"
+            android:layout_marginTop="@dimen/y4"
+            android:layout_marginBottom="@dimen/y4"
+            android:layout_marginRight="@dimen/y4"
+            android:layout_width="@dimen/y120"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:background="@drawable/button_color_selector"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rl_face_contain"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:visibility="gone"
+        >
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_emoji"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:id="@+id/ll_point_contain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="5dp">
+    </LinearLayout>
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_marginTop="@dimen/y10"
+        android:layout_width="match_parent"
+        android:background="@color/color_cccccc"
+        android:layout_height="1sp" />-->
+</LinearLayout>

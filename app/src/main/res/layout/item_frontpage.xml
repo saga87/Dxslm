@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y140"
+            >
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxEms="6"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:layout_marginLeft="5sp"
+                    android:ellipsize="end"
+                    android:text="买那个韩国的话估计看到回复大家看法还中控室都护府达摩福娘"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:scaleType="centerCrop"
+                    />
+
+                <TextView
+                    android:id="@+id/fp_news_contact"
+                    android:layout_marginTop="@dimen/y20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="中控室都护府达摩福娘中控室都护府达摩福娘中控室都护府达摩福娘"
+                    android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/fp_news_time"
+                        android:layout_marginTop="@dimen/y20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5sp"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:text="中控室都护府达摩福娘中控室都护府达摩福娘中控室都护府达摩福娘"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="@dimen/x250"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/iv_pic"
+                    android:layout_width="@dimen/x250"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="#F2F2F2"
+            android:layout_height="15dp" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

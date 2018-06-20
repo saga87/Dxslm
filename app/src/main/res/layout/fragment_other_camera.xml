@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dxslm.view.fragment.OtherCameraFragment"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        >
+    <com.dxslm.ui.GridViewForScrollview
+        android:id="@+id/other_xc_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:layout_marginRight="2dp"
+        android:gravity="center"
+        android:verticalSpacing="2dp"
+        android:divider="@null">
+    </com.dxslm.ui.GridViewForScrollview>
+    </ScrollView>
+</LinearLayout>

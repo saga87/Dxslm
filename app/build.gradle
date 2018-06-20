@@ -1,0 +1,100 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+    signingConfigs {
+        net_core {
+            storeFile file('E:/asapk/dxslm.jks')
+            storePassword '123456'
+            keyAlias 'ning'
+            keyPassword '123456'
+        }
+    }
+    defaultConfig {
+        applicationId "com.dxslm"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 19
+        versionName "1.9"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            //根据需要 自行选择添加的对应cpu类型的.so库。
+            abiFilters 'armeabi', 'armeabi-v7a', 'arm64-v8a'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+
+        manifestPlaceholders = [
+                XG_ACCESS_ID : "2100281030",
+                XG_ACCESS_KEY: "A4A3TFWK964X",
+                HW_APPID     : "100250523"
+
+        ]
+
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.net_core
+        }
+        debug {
+            signingConfig signingConfigs.net_core
+        }
+    }
+    //使AS知道.so文件的位置
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    //okttp依赖
+    //recycle下拉上拉
+    //初始化控件
+    //图片加载
+    //圆形图片
+    //相片查看
+    //动态权限
+    //edittext 多文字输入
+    //webview 使用
+    //app 升级
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.squareup.okhttp3:okhttp:3.8.0'
+    compile 'com.google.code.gson:gson:2.8.1'
+    compile 'com.lcodecorex:tkrefreshlayout:1.0.7'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'liji.library.dev:circleimageview:0.1.0'
+    compile 'com.github.SuperKotlin:PictureViewer:2.0.1'
+    compile 'com.jph.takephoto:takephoto_library:4.0.3'
+//    compile 'com.jph.takephoto:takephoto_library:4.1.0'
+    compile 'com.yanzhenjie:permission:1.0.5'
+    compile 'com.github.FJ917:FJEditTextCount:v1.0.4'
+    compile 'com.just.agentweb:agentweb:3.0.0'
+    compile 'com.qianwen:update-app:3.3.8'
+    compile 'com.qianwen:okhttp-utils:3.8.0'
+    compile 'com.android.support:support-v4:26.0.0-beta1'
+    testCompile 'junit:junit:4.12'
+
+    //信鸽jar
+    compile 'com.tencent.xinge:xinge:3.2.2-release'
+    //wup包
+    compile 'com.tencent.wup:wup:1.0.0.E-release'
+    //mid包
+    compile 'com.tencent.mid:mid:4.0.6-release'
+    //信鸽华为包
+    compile 'com.tencent.xinge:xghw:2.5.2.300-release'
+    //新增小米push的jar包
+    compile 'com.tencent.xinge:mipush:3.2.2-release'
+    compile 'com.tencent.xinge:xgmz:3.2.2-release'
+
+}

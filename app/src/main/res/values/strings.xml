@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">大学生联盟</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="wjma">忘记密码?</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="register">注册</string>
+    <string name="headpage">首页</string>
+    <string name="headtext1">热点</string>
+    <string name="headtext2">大学生</string>
+    <string name="headtext3">校园头条</string>
+    <string name="headtext4">表白墙</string>
+    <string name="headtext5">本校论坛</string>
+    <string name="headtext6">高校圈</string>
+    <string name="headtext7">学生会</string>
+    <string name="headtext8">校园社团</string>
+    <!--分享-->
+    <string name="share_weixin">微信</string>
+    <string name="share_weixin_moment">朋友圈</string>
+    <string name="share_qq">QQ</string>
+    <string name="share_qzone">QQ空间</string>
+    <string name="share_qinglun">评论</string>
+    <string name="share_shoucang">收藏</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

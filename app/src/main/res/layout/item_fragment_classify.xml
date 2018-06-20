@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_item_fracla_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="大家分"
+        android:padding="@dimen/y20"
+        android:layout_marginTop="@dimen/y10"
+        android:layout_marginBottom="@dimen/y10"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/color_cccccc"
+        android:layout_height="1sp" />
+</LinearLayout>

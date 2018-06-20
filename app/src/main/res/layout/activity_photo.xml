@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dxslm.view.activity.PhotoActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y90"
+        android:background="@color/title">
+        <ImageView
+            android:id="@+id/xc_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/back"
+            android:paddingLeft="@dimen/x20"
+            android:paddingRight="@dimen/x20"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="我的相册"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/xc_add"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="去上传"
+            android:textColor="@color/white"
+            android:background="@color/title"
+            android:paddingLeft="@dimen/x30"
+            android:paddingRight="@dimen/x30"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        >
+    <com.dxslm.ui.GridViewForScrollview
+        android:id="@+id/xc_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:layout_marginRight="2dp"
+        android:gravity="center"
+        android:verticalSpacing="2dp"
+        android:divider="@null">
+    </com.dxslm.ui.GridViewForScrollview>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

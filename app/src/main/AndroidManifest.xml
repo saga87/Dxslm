@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dxslm">
+
+    <!-- sdkspe分享 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- 手机震动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 蓝牙分享所需的权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- 相机相册 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/iconnn"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconnn"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view.activity.YinDaoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.activity.LoginActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.HeadActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.NewsActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.NewsDetailsActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.SchoolActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.PostActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.PostDetailsActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.SchoolDetailsActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.StudentActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.StudentDetailsActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.CommunityActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.CommunityDetailsActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.LoveActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.ForumActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.ForumDetailsActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.StudentUnionActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.StudentUnionDetailsActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.UsedActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.LoseActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.OtherWorkActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.ChwlActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.ChwlDetailsActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.UserMessageActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.IssueActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.IssueDetailsActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.CollectActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.RegisterActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <activity
+            android:name=".view.activity.SearchPawActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan|stateVisible" />
+        <!-- shareSDK -->
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+            <!-- QQ和QQ空间分享 QQ登录的回调必须要配置的 -->
+            <intent-filter>
+                <data android:scheme="tencent1106531417" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 微信分享回调 -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name=".view.activity.SchoolClassifyActivity" />
+        <activity android:name=".view.activity.GywmActivity" />
+
+        <receiver
+            android:name=".receiver.MyXGReceiver"
+            android:exported="true">
+            <intent-filter>
+
+                <!-- 接收消息透传 -->
+                <action android:name="com.tencent.android.tpush.action.PUSH_MESSAGE" />
+                <!-- 监听注册、反注册、设置/删除标签、通知被点击等处理结果 -->
+                <action android:name="com.tencent.android.tpush.action.FEEDBACK" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.MyHuaweiReceiver">
+            <intent-filter>
+
+                <!-- 必须,用于接收TOKEN -->
+                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+                <!-- 必须，用于接收消息 -->
+                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+                <!-- 可选，用于点击通知栏或通知栏上的按钮后触发onEvent回调 -->
+                <action android:name="com.huawei.android.push.intent.CLICK" />
+                <!-- 可选，查看PUSH通道是否连接，不查看则不需要 -->
+                <action android:name="com.huawei.intent.action.PUSH_STATE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.MyMeizuReceiver">
+            <intent-filter>
+
+                <!-- 接收push消息 -->
+                <action android:name="com.meizu.flyme.push.intent.MESSAGE" />
+                <!-- 接收register消息 -->
+                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK" />
+                <!-- 接收unregister消息 -->
+                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK" />
+                <action android:name="com.meizu.c2dm.intent.REGISTRATION" />
+                <action android:name="com.meizu.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.dxslm" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.MyXiaoMiReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".view.activity.UserMesssgeActivity" />
+        <activity android:name=".view.activity.PersonNewsActivity" />
+        <activity android:name=".view.activity.PersonSchoolActivity" />
+        <activity android:name=".view.activity.PersonForumActivity" />
+        <activity android:name=".view.activity.PersonPostActivity" />
+        <activity android:name=".view.activity.PersonChwlActivity" />
+        <activity android:name=".view.activity.OtherPersonActivity" />
+        <activity android:name=".view.activity.PhotoActivity" />
+        <activity android:name=".view.activity.AddPhotoActivity"></activity>
+    </application>
+
+</manifest>

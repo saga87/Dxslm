@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/y10">
+
+            <com.liji.circleimageview.CircleImageView
+                android:id="@+id/iv_touxiang_forum"
+                android:layout_width="@dimen/x80"
+                android:layout_height="@dimen/y80"
+                android:src="@drawable/mytouxiang" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/y5"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/item_tv_forum_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="中控室都护府达摩福娘"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/item_tv_forum_time"
+                    android:paddingTop="@dimen/y2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="2018年04月19日"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/item_tv_forum_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="aaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/y90"
+            />
+
+        <com.dxslm.ui.GridViewForScrollview
+            android:id="@+id/item_gv_forum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            android:layout_marginLeft="@dimen/y80"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:verticalSpacing="2dp"
+            android:divider="@null">
+        </com.dxslm.ui.GridViewForScrollview>
+
+    <LinearLayout
+        android:id="@+id/item_ll_forum_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y10">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/y90"
+        android:src="@drawable/comment" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x8"
+            android:text="评论"
+            android:layout_marginTop="-3dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:background="#F2F2F2"
+        android:layout_height="10dp"
+        android:layout_marginTop="@dimen/y5"/>
+
+</LinearLayout>
