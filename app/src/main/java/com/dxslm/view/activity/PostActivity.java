@@ -133,7 +133,7 @@ public class PostActivity extends BaseActivity {
      * 获取上拉下拉  刷新数据
      */
     public void getList(int page1) {
-        HeadModel.getInstance().newsList(page1, pagesize, deptId, new ICallBack() {
+        HeadModel.getInstance().postList(page1, pagesize, deptId, new ICallBack() {
             public void succeed(Object object) {
                 try {
                     PostList list = (PostList) object;
